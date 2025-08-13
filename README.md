@@ -1,14 +1,15 @@
 # BPTree
 
-BPTree is an implementation of a B+Tree data structure designed to efficiently store, retrieve, and manage large sets of sorted data. The B+Tree is widely used in database and file systems due to its ability to handle dynamic insertions, deletions, and range queries with logarithmic time complexity.
+BPTree is a practical implementation of the B+Tree data structure, crafted to efficiently store, retrieve, and manage large collections of sorted data. This structure is a favorite in database and file systems because it can handle dynamic insertions, deletions, and range queries with impressive logarithmic time complexity.
+
 ![](./docs/chart.gif)
+
 This project provides the following features:
 
-- Insertion of key-record pairs into the B+Tree
-- Deletion of keys from the B+Tree
-- Efficient range queries to retrieve all records within a specified key range
-- Exporting the current state of the B+Tree for grading or visualization
-- Generation of a visual chart of the B+Tree structure
+- Insert key-record pairs into the B+Tree
+- Delete keys from the B+Tree
+- Perform efficient range queries to fetch all records within a specific key range
+- Export the current state of the B+Tree for grading or visualization
+- Generate a visual chart of the B+Tree structure
 
-The B+Tree operates over keys stored in an unordered heap, ensuring that all operations remain efficient even as the dataset grows. This makes it suitable for educational purposes, database indexing, and systems that require fast and reliable data access.
-
+The B+Tree works with keys stored in an unordered heap, which keeps all operations efficient, even as the dataset expands. This makes it perfect for educational purposes, database indexing, and systems that need quick and reliable data access.
